@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/profile_back_iv"
+        android:layout_width="@dimen/profileImage_width"
+        android:layout_height="@dimen/profileImage_height"
+        android:src="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:layout_marginTop="@dimen/image_marginTop"
+        android:layout_marginLeft="@dimen/image_marginLeft"
+        android:layout_marginRight="@dimen/image_marginRight"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/profile_titleMarginTop"
+        android:text="@string/profile_title"
+        android:textSize="@dimen/profile_titleSize"
+        android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/profile_iv"
+        android:layout_width="@dimen/profile_imageWidth"
+        android:layout_height="@dimen/profile_imageHeight"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/lbl_marginLeft"
+        android:src="@drawable/cartoon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/image_marginTop"
+        android:layout_marginLeft="@dimen/lbl_marginLeft"
+        android:text="@string/name_tv"
+        android:textColor="#FF9800"
+        android:textSize="@dimen/lbl_size" />
+
+    <TextView
+        android:id="@+id/userName_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/lbl_marginLeft"
+        android:text="--------"
+        android:textColor="#000"
+        android:textSize="@dimen/lbl_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/image_marginTop"
+        android:layout_marginLeft="@dimen/lbl_marginLeft"
+        android:text="@string/email_tv"
+        android:textColor="#FF9800"
+        android:textSize="@dimen/lbl_size" />
+
+    <TextView
+        android:id="@+id/userEmail_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/lbl_marginLeft"
+        android:text="--------"
+        android:textColor="#000"
+        android:textSize="@dimen/lbl_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/image_marginTop"
+        android:layout_marginLeft="@dimen/lbl_marginLeft"
+        android:text="@string/profile_ph_tv"
+        android:textColor="#FF9800"
+        android:textSize="@dimen/lbl_size" />
+
+    <TextView
+        android:id="@+id/userPh_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/lbl_marginLeft"
+        android:text="--------"
+        android:textColor="#000"
+        android:textSize="@dimen/lbl_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/image_marginTop"
+        android:layout_marginLeft="@dimen/lbl_marginLeft"
+        android:text="@string/profile_text"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/trailer_marginLeft"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/flash_iv"
+                android:layout_width="@dimen/trailer_ImageWidth"
+                android:layout_height="@dimen/trailer_ImageHeight"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/flash"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/flash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/trailer1_tv"
+                android:textColor="#000"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/flash_iv"
+                app:layout_constraintStart_toStartOf="@+id/flash_iv"
+                app:layout_constraintTop_toBottomOf="@+id/flash_iv"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/rating_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/rate_tv"
+                android:textColor="#F1EAE9"
+                app:layout_constraintBottom_toTopOf="@+id/flash"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.813"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/flash_iv"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/hotel_iv"
+                android:layout_width="@dimen/trailer_ImageWidth"
+                android:layout_height="@dimen/trailer_ImageHeight"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/hotel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.296"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/hotel"
+                android:layout_width="@dimen/trailer_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/trailer2_tv"
+                android:textColor="#000"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/hotel_iv"
+                app:layout_constraintTop_toBottomOf="@+id/hotel_iv" />
+
+            <TextView
+                android:id="@+id/hotel_rating_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/rate_tv"
+                android:textColor="#F1EAE9"
+                app:layout_constraintBottom_toTopOf="@+id/hotel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/hotel_iv"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="MissingConstraints" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

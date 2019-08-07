@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--activity_main-->
+    <dimen name="image_width">100dp</dimen>
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="image_top">100dp</dimen>
+    <dimen name="title_size">25sp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_maginTop">30dp</dimen>
+    <dimen name="text_marginLeft">10dp</dimen>
+    <dimen name="text_marginRight">10dp</dimen>
+    <dimen name="lbl_size">15sp</dimen>
+    <dimen name="lbl_marginTop">15dp</dimen>
+    <dimen name="marginTop">2dp</dimen>
+    <dimen name="btn_marginTop">50dp</dimen>
+
+    <!--activity_userprofile-->
+    <dimen name="profileImage_width">40dp</dimen>
+    <dimen name="profileImage_height">40dp</dimen>
+    <dimen name="image_marginTop">30dp</dimen>
+    <dimen name="image_marginLeft">20dp</dimen>
+    <dimen name="image_marginRight">3dp</dimen>
+    <dimen name="profile_titleSize">20sp</dimen>
+    <dimen name="profile_titleMarginTop">35dp</dimen>
+    <dimen name="profile_imageWidth">120dp</dimen>
+    <dimen name="profile_imageHeight">120dp</dimen>
+    <dimen name="lbl_marginLeft">28dp</dimen>
+    <dimen name="textSize">18sp</dimen>
+    <dimen name="trailer_ImageWidth">150dp</dimen>
+    <dimen name="trailer_ImageHeight">200dp</dimen>
+    <dimen name="trailer_marginLeft">20dp</dimen>
+    <dimen name="trailer_width">180dp</dimen>
+
+    <!--activity_flashdetail-->
+    <dimen name="cast_imageWidth">100dp</dimen>
+    <dimen name="cast_imageHeight">100dp</dimen>
+    <dimen name="marginLeft">3dp</dimen>
+    <dimen name="iconWidth">50dp</dimen>
+    <dimen name="iconHeight">50dp</dimen>
+    <dimen name="icon_marginLeft">50dp</dimen>
+
+
+</resources>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/the_flash"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back_iv"
+                android:layout_width="@dimen/profileImage_width"
+                android:layout_height="@dimen/profileImage_height"
+                android:src="@drawable/ic_keyboard_arrow_left_white_24dp"
+                android:layout_marginTop="@dimen/image_marginTop"
+                android:layout_marginLeft="@dimen/image_marginLeft"
+                android:layout_marginRight="@dimen/image_marginRight"/>
+
+            <TextView
+                android:id="@+id/back_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profile_titleMarginTop"
+                android:text="@string/back_tv"
+                android:textColor="#fff"
+                android:textSize="@dimen/profile_titleSize"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="@dimen/profileImage_width"
+                android:layout_height="@dimen/profileImage_height"
+                android:src="@drawable/ic_share_black_24dp"
+                android:layout_marginTop="@dimen/image_marginTop"
+                android:layout_marginLeft="200dp"
+                android:layout_toRightOf="@id/text"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/trailer_marginLeft"
+            android:layout_marginTop="@dimen/image_marginTop"
+            android:text="@string/flash_title"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/trailer_marginLeft"
+            android:layout_marginTop="@dimen/marginTop"
+            android:text="@string/text1"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/rate_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/trailer_marginLeft"
+            android:layout_marginTop="@dimen/lbl_marginTop"
+            android:text="@string/rate_tv"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/trailer_marginLeft"
+                android:numStars="5"
+                android:rating="3.5"
+                android:stepSize="0.5"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/trailer_marginLeft"
+            android:text="@string/detail"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lbl_marginTop"
+        android:layout_marginLeft="@dimen/trailer_marginLeft"
+        android:text="@string/text2"
+        android:textSize="@dimen/profile_titleSize"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/cast_imageWidth"
+                    android:layout_height="@dimen/cast_imageHeight"
+                    android:layout_marginTop="@dimen/lbl_marginTop"
+                    android:layout_marginLeft="@dimen/trailer_marginLeft"
+                    android:src="@drawable/flash" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/trailer_marginLeft"
+                    android:text="@string/text3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/cast_imageWidth"
+                android:layout_height="@dimen/cast_imageHeight"
+                android:layout_marginTop="@dimen/lbl_marginTop"
+                android:layout_marginLeft="@dimen/trailer_marginLeft"
+                android:src="@drawable/flash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/trailer_marginLeft"
+                android:text="@string/text4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/cast_imageWidth"
+                android:layout_height="@dimen/cast_imageHeight"
+                android:layout_marginLeft="@dimen/trailer_marginLeft"
+                android:layout_marginTop="@dimen/lbl_marginTop"
+                android:src="@drawable/flash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/trailer_marginLeft"
+                android:text="@string/text5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/cast_imageWidth"
+                android:layout_height="@dimen/cast_imageHeight"
+                android:layout_marginTop="@dimen/lbl_marginTop"
+                android:layout_marginLeft="@dimen/trailer_marginLeft"
+                android:src="@drawable/flash" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/trailer_marginLeft"
+                android:text="@string/text6"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lbl_marginTop"
+        android:layout_marginLeft="@dimen/image_marginLeft"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/iconWidth"
+                android:layout_height="@dimen/iconHeight"
+                android:layout_marginTop="@dimen/lbl_marginTop"
+                android:layout_marginLeft="@dimen/icon_marginLeft"
+                android:src="@drawable/like"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lbl_marginLeft"
+                android:layout_gravity="center"
+                android:text="@string/like"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/iconWidth"
+                android:layout_height="@dimen/iconHeight"
+                android:layout_marginTop="@dimen/lbl_marginTop"
+                android:layout_marginLeft="@dimen/icon_marginLeft"
+                android:src="@drawable/star"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lbl_marginLeft"
+                android:layout_gravity="center"
+                android:text="@string/star"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/iconWidth"
+                android:layout_height="@dimen/iconHeight"
+                android:layout_marginTop="@dimen/lbl_marginTop"
+                android:layout_marginLeft="@dimen/icon_marginLeft"
+                android:src="@drawable/comment"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/lbl_marginLeft"
+                android:layout_gravity="center"
+                android:text="@string/comment" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v4.widget.NestedScrollView>

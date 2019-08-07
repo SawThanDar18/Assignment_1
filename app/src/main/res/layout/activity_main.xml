@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_marginTop="@dimen/image_top"
+        android:layout_gravity="center"
+        android:src="@drawable/showtime"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/title"
+        android:textColor="#FF4500"
+        android:textStyle="bold"
+        android:textSize="@dimen/title_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_maginTop"
+        android:layout_marginLeft="@dimen/text_marginLeft"
+        android:text="@string/text"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lbl_marginTop"
+        android:layout_marginLeft="@dimen/text_marginLeft"
+        android:text="@string/name_tv"
+        android:textColor="#FF9800"
+        android:textSize="@dimen/lbl_size"/>
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/text_marginLeft"
+        android:layout_marginRight="@dimen/text_marginRight"
+        android:hint="@string/name_et"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lbl_marginTop"
+        android:layout_marginLeft="@dimen/text_marginLeft"
+        android:text="@string/email_tv"
+        android:textColor="#FF9800"
+        android:textSize="@dimen/lbl_size"/>
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/text_marginLeft"
+        android:layout_marginRight="@dimen/text_marginRight"
+        android:hint="@string/email_et"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/lbl_marginTop"
+        android:layout_marginLeft="@dimen/text_marginLeft"
+        android:text="@string/ph_tv"
+        android:textColor="#FF9800"
+        android:textSize="@dimen/lbl_size"/>
+
+    <EditText
+        android:id="@+id/ph_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop"
+        android:layout_marginLeft="@dimen/text_marginLeft"
+        android:layout_marginRight="@dimen/text_marginRight"
+        android:hint="@string/ph_et"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/continue_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:layout_marginLeft="@dimen/text_marginLeft"
+        android:layout_marginRight="@dimen/text_marginRight"
+        android:text="@string/continue_btn"
+        android:textColor="#fff"
+        android:background="#FF4500"/>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Movie</string>
+
+    <!--activity_main-->
+    <string name="title">SHOWTIME</string>
+    <string name="text">Basic Info</string>
+    <string name="name_tv">Name</string>
+    <string name="email_tv">Email</string>
+    <string name="ph_tv">Phone Number</string>
+    <string name="name_et">eg.Mg Mg</string>
+    <string name="email_et">mgmg@gmail.com</string>
+    <string name="ph_et">09xxxx</string>
+    <string name="continue_btn">Continue</string>
+
+    <!--activity_userprofile-->
+    <string name="profile_title">PROFILE</string>
+    <string name="profile_ph_tv">Contact Phone</string>
+    <string name="profile_text">Recently Likes</string>
+    <string name="trailer1_tv">THE FLASH</string>
+    <string name="trailer2_tv">Hotel Transylvania 3: SUMMER VACATION</string>
+
+    <!--activity_flashdetail-->
+    <string name="back_tv">Back</string>
+    <string name="flash_title">THE FLASH</string>
+    <string name="text1">3,292 People wathing</string>
+    <string name="rate_tv">9.7</string>
+    <string name="detail">After being struck by lightning, Barry Allen wakes up from his coma to discover he has been given the power of super speed, becoming the Flash, fighting crime in Central City.</string>
+    <string name="text2">Full Cast and Crew</string>
+    <string name="text3">Dermott Downs</string>
+    <string name="text4">Grant Gustin</string>
+    <string name="text5">Candice Patton</string>
+    <string name="text6">Danielle Panabaker</string>
+    <string name="like">230K</string>
+    <string name="star">2003</string>
+    <string name="comment">390</string>
+
+</resources>
